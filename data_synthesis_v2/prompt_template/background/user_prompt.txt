@@ -1,0 +1,13 @@
+请按照要求生成多个用户的基本信息，包括用户的姓名(name)、性别(gender)、年龄(age)、职业情况(occupation)、健康状况(health status)、家庭成员(family members)、业余爱好(hobbies)、性格(personality)。其中：
+- 职业情况(occupation)、健康状况(health status)、家庭成员(family members)、业余爱好(hobbies)需要分别用2~3句话描述。
+- 性格(personality)采用大五人格描述，分为开放性(Openness)、尽责性(Conscientiousness)、外向性(Extraversion)、宜人性(Agreeableness)、神经质性(Neuroticism)五个维度，每个维度可以取["low", "medium", "high"]中的一个值。
+
+# 示例数据
+"""
+[
+    <example_json>,
+    ...
+]
+"""
+
+现在，请你生成10条用户基本信息，尽可能涵盖不同的用户群体（但不要包括学生和退休人员）。你需要参考上述示例数据的形式，以json格式输出（输出的用户id范围："<start_id>"~"<end_id>"）。请注意：不要默认所有人的家庭氛围都是融洽的，不要默认所有人的健康状况都是较好的，不要默认所有人都有着丰富有趣的业余爱好，也不要默认所有人的性格都是一般意义上开放、友善、积极的。真实情况下不同人的各方面表现具有很大的差异性，你也需要在模拟的数据中尽可能体现出不同用户之间的差异性。

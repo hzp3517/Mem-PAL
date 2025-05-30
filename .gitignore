@@ -1,0 +1,28 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+.vscode
+
+# Log
+*.log
+*.log.*
+!*retrieval_result.log
+
+# Editor
+.idea
+*.swp
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+# Debug or backup
+*backup*
+*debug*
+
+# analysis or process files
+*.csv
