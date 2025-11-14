@@ -1,6 +1,8 @@
 # Mem-PAL
 
-The data and code of the paper "Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction".
+The data and code of the paper "Mem-PAL: Towards Memory-based Personalized Dialogue Assistants for Long-term User-Agent Interaction" (AAAI 2026 Oral).
+
+The Appendix of this paper is present in [here](Appendix_of_Mem-PAL.pdf).
 
 ## PAL-Set Synthesis
 
